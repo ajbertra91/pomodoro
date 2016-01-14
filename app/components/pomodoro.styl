@@ -3,14 +3,20 @@ $actionBgColor = hsla(200,75%,50%,1)
 $actionBorderColor = hsla(200,75%,40%,1)
 $actionTextColor = $white
 
+$lightestRed = hsla(0, 42%, 49%, 1)
+$lightRed = hsla(0, 57%, 35%, 1)
+$darkRed = hsla(0, 100%, 12%, 1)
+$darkestRed = hsla(0, 100%, 6%, 1)
+
 $calculatorBg = hsla(0,0%,80%,1)
 
 
 //handheld
 @media only screen and (min-width: 320px)
   #pomodoro
-    background-color: $calculatorBg
+    background-color: $lightRed
     width: 100%
+    color: $lightestRed
   
 //tablet
 @media only screen and (min-width: 600px)
