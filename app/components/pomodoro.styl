@@ -1,0 +1,23 @@
+$white = hsla(0,0%,100%,1)
+$actionBgColor = hsla(200,75%,50%,1)
+$actionBorderColor = hsla(200,75%,40%,1)
+$actionTextColor = $white
+
+$calculatorBg = hsla(0,0%,80%,1)
+
+
+//handheld
+@media only screen and (min-width: 320px)
+  #pomodoro
+    background-color: $calculatorBg
+    width: 100%
+  
+//tablet
+@media only screen and (min-width: 600px)
+  #pomodoro
+    width: 300px
+
+//desktop
+@media only screen and (min-width: 1250px)
+  #pomodoro
+    width: 300px
